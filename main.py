@@ -22,6 +22,9 @@ class MainProcessor:
         json_processor = FoodDataProcessor(self.json_file, self.db_config)
         json_processor.process_data()  # Process and store JSON data in MySQL
         print("✅ JSON processing completed!")
+    
+    def print_statements():
+        print("i am testing the branch")
 
 if __name__ == "__main__":
     file_path = "FinancialSample.xlsx"  # Excel file for financial data
@@ -38,3 +41,4 @@ if __name__ == "__main__":
 
     processor = MainProcessor(file_path, input_sheet_name, json_file, db_config)
     processor.execute()
+    processor.print_statements
