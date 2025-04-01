@@ -1,0 +1,17 @@
+{
+    "Food": [
+        {"name": "Pizza", "category": "Italian", "price": 10},
+        {"name": "Burger", "category": "American", "price": 5},
+        {"name": "Sushi", "category": "Japanese", "price": 15}
+    ],
+    "Topping": [
+        {"name": "Cheese", "type": "Dairy", "price": 2},
+        {"name": "Olives", "type": "Vegetable", "price": 1},
+        {"name": "Pepperoni", "type": "Meat", "price": 3}
+    ],
+    "Batter": [
+        {"name": "Pancake", "ingredient": "Flour, Eggs, Milk", "price": 3},
+        {"name": "Waffle", "ingredient": "Flour, Eggs, Sugar", "price": 4},
+        {"name": "Crepes", "ingredient": "Flour, Eggs, Milk, Butter", "price": 5}
+    ]
+}
